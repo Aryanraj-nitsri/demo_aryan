@@ -1,0 +1,164 @@
+*{
+    box-sizing: border-box;
+}
+.logo {
+  background-image: url("https://cdn.logo.com/hotlink-ok/logo-social.png");
+  width: 80px;
+  height: 70px;
+  background-color: red;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-1-left-img {
+  width: 40%;
+  height: 360px;
+  background-image: url("https://picsum.photos/200/300");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.video-1 {
+  /* border: 2px solid red; */
+  width: 50%;
+}
+.video-1 video {
+  width: 100%;
+}
+.box {
+  width: 8px;
+  height: 8px;
+  background-color: green;
+  border-radius: 50%;
+}
+.section-2-img {
+  width: 40%;
+  height: 360px;
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWg27RxEm_euLwwasY6AlwCoS-y3mAj5S7Q&usqp=CAU");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-3-img {
+  width: 100%;
+  height: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#section-3-img-1 {
+  background-image: url("https://thumbs.dreamstime.com/b/business-handshake-green-screen-background-partnership-trust-respect-sign-business-handshake-green-screen-background-137520039.jpg");
+}
+#section-3-img-2 {
+  background-image: url("https://images.ctfassets.net/uwf0n1j71a7j/3O3WpDp8Yw3QiUKG4Xz8Dl/5a66cc283d59e0fd3f7e747d52ccf7df/electric-bike-insurance.png");
+}
+#section-3-img-3 {
+  background-image: url("https://media.istockphoto.com/id/145159328/photo/here-are-the-keys.jpg?s=612x612&w=0&k=20&c=DZ9hCIyuDodceSkbj4CV_BEFoCynADfl2uhoL7iv6as=");
+}
+.section-4-video {
+  width: 40%;
+}
+.section-4-video video {
+  width: 100%;
+}
+.logo-type-2 {
+  height: 100px;
+  background-image: url("https://picsum.photos/200/300");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo-container {
+  display: grid;
+  margin-top: 20px;
+  grid-template-columns: repeat(2, minmax(90px, 150px));
+  grid-gap: 20px;
+}
+.accord-custom {
+  width: 90%;
+}
+.opinion-box {
+  width: 250px;
+  height: 250px;
+  border-radius: 8px 8px 0px 30px;
+  background-color: rgb(176, 175, 175);
+}
+.mahesh-box {
+  background-color: rgb(21, 69, 80);
+  border-bottom-left-radius: 30px;
+  color: white;
+}
+.anand-box {
+  border-bottom-left-radius: 30px;
+  color: white;
+  background-color: darkorange;
+}
+#section-7 {
+  width: 100%;
+  /* height: 450px; */
+  background-color: rgb(0, 87, 100);
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 300px));
+  justify-content: space-evenly;
+}
+.green-tiger-logo {
+  background-image: url("https://greentiger.in/assets/logo.png");
+  width: 200px;
+  height: 100px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+@media only screen and (max-width: 1065px) {
+  #section-7 {
+    grid-template-columns: repeat(2, minmax(70px, 400px));
+    grid-gap: 12%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .video-1 {
+    width: 90%;
+  }
+  .section-1-left-img {
+    height: 325px;
+    width: 90%;
+    background-size: cover;
+  }
+  .section-2-img {
+    width: 90%;
+  }
+  .data-line {
+    transform: rotate(90deg);
+  }
+  .section-4-video {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .data-btn {
+    font-size: 11px;
+    padding: 4px;
+  }
+  .data-list {
+    font-size: 12px;
+  }
+  #section-7 {
+    font-size: 11px;
+    grid-gap: 8%;
+  }
+  .green-tiger-logo {
+    height: 80px;
+  }
+  #section8 span {
+    font-size: 11px;
+  }
+}
+@media only screen and (max-width: 380px) {
+  #section-7 {
+    grid-template-columns: repeat(1, minmax(50px, 1fr));
+    padding: 0rem 0rem 5rem 1rem !important;
+    height: fit-content;
+  }
+}
