@@ -24,6 +24,11 @@
 .data-btn:hover{
   background-color: darkgreen;
 }
+#section-1{
+  height: 89.5vh;
+  
+}
+
 .section-1-left-img {
   width: 50%;
   aspect-ratio: 16/9;
@@ -117,6 +122,9 @@
 .accordion-button:not(.collapsed){
   background-color:#b7e9bd !important;
   box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #00aa13 !important;
+}
+.accordion-button:not(.collapsed){
+  color: black;
 }
 
 #section-7 {
