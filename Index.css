@@ -2,17 +2,31 @@
     box-sizing: border-box;
 }
 .logo {
-  background-image: url("https://cdn.logo.com/hotlink-ok/logo-social.png");
-  width: 80px;
-  height: 70px;
-  background-color: red;
+  background-image: url("https://greentiger.in/assets/logo.png");
+  width: 175px;
+  height: 43px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.hamburger{
+  width: 30px;
+  aspect-ratio: 1;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8867/8867520.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.data-btn{
+  background-color: #00aa13;
+  border: none;
+}
+.data-btn:hover{
+  background-color: darkgreen;
+}
 .section-1-left-img {
-  width: 40%;
-  height: 360px;
+  width: 50%;
+  aspect-ratio: 16/9;
   background-image: url("https://picsum.photos/200/300");
   background-position: center;
   background-repeat: no-repeat;
@@ -41,19 +55,24 @@
 }
 .section-3-img {
   width: 100%;
-  height: 150px;
+  aspect-ratio:1;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
 }
 #section-3-img-1 {
-  background-image: url("https://thumbs.dreamstime.com/b/business-handshake-green-screen-background-partnership-trust-respect-sign-business-handshake-green-screen-background-137520039.jpg");
+  background-image: url("https://picsum.photos/200/300");
 }
 #section-3-img-2 {
-  background-image: url("https://images.ctfassets.net/uwf0n1j71a7j/3O3WpDp8Yw3QiUKG4Xz8Dl/5a66cc283d59e0fd3f7e747d52ccf7df/electric-bike-insurance.png");
+  background-image: url("https://picsum.photos/200/300");
+
 }
 #section-3-img-3 {
-  background-image: url("https://media.istockphoto.com/id/145159328/photo/here-are-the-keys.jpg?s=612x612&w=0&k=20&c=DZ9hCIyuDodceSkbj4CV_BEFoCynADfl2uhoL7iv6as=");
+  background-image: url("https://picsum.photos/200/300");
+
+}
+.section-3-box{
+  width: 18%;
 }
 .section-4-video {
   width: 40%;
@@ -77,6 +96,8 @@
 .accord-custom {
   width: 90%;
 }
+
+
 .opinion-box {
   width: 250px;
   height: 250px;
@@ -93,6 +114,11 @@
   color: white;
   background-color: darkorange;
 }
+.accordion-button:not(.collapsed){
+  background-color:#b7e9bd !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #00aa13 !important;
+}
+
 #section-7 {
   width: 100%;
   /* height: 450px; */
@@ -121,8 +147,8 @@
     width: 90%;
   }
   .section-1-left-img {
-    height: 325px;
     width: 90%;
+    aspect-ratio: 16/9;
     background-size: cover;
   }
   .section-2-img {
@@ -134,12 +160,22 @@
   .section-4-video {
     width: 90%;
   }
+  .section-3-box{
+    width: 40%;
+
+  }
+  .section-3-img{
+    aspect-ratio: 2/1;
+    background-size: cover;
+    
+  }
+  
 }
 
 @media only screen and (max-width: 576px) {
   .data-btn {
     font-size: 11px;
-    padding: 4px;
+    padding: 6px 4px;
   }
   .data-list {
     font-size: 12px;
@@ -154,11 +190,29 @@
   #section8 span {
     font-size: 11px;
   }
+  .section-3-box{
+    width: 60%;
+
+  }
+  .logo{
+    width:140px ;
+    background-size:contain ;
+  }
+  .hamburger{
+    width: 25px;
+  }
 }
 @media only screen and (max-width: 380px) {
   #section-7 {
     grid-template-columns: repeat(1, minmax(50px, 1fr));
     padding: 0rem 0rem 5rem 1rem !important;
     height: fit-content;
+  }
+  .data-btn{
+    font-size: 9px;
+    padding: 5px 4px;
+  }
+  .logo{
+    width:98px;
   }
 }

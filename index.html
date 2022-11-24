@@ -14,46 +14,47 @@
     <link rel="stylesheet" href="Index.css" />
   </head>
   <body>
-    <nav class="d-flex justify-content-between align-items-center bg-light">
+    <nav class="d-flex justify-content-between align-items-center bg-light p-sm-3 p-1">
       <!-- logo boxe -->
       <div>
         <div class="logo"></div>
       </div>
       <!-- right-part -->
-      <div class="d-flex align-items-center gap-sm-5 gap-2 me-2">
+      <div class="d-flex align-items-center gap-sm-5 gap-2">
         <button type="button" class="btn btn-primary data-btn">
           Our Components
         </button>
         <button type="button" class="btn btn-primary data-btn">Pre-book</button>
 
-        <img
+        <!-- <img
           src="https://cdn-icons-png.flaticon.com/512/8867/8867520.png"
           alt="..."
           width="32px"
-        />
+        /> -->
+        <div class="hamburger"></div>
       </div>
     </nav>
     <div
       id="section-1"
-      class="d-flex justify-content-center mt-4 border border-bottom-1 border-top-0 border-end-0 border-start-0 border-dark"
+      class="d-flex justify-content-center mt-4"
     >
       <div class="d-flex flex-column gap-4">
-        <h1 class="text-center">Always with You</h1>
+        <h2 class="text-center"> <span class="text-success">ALWAYS</span>  WITH YOU</h2>
 
         <div class="d-flex gap-4 flex-lg-row flex-column align-items-center">
-          <div class="section-1-left-img me-lg-5 me-0"></div>
+          <div class="section-1-left-img me-lg-5 me-0 rounded-2"></div>
           <div class="video-1">
-            <video src="video.mp4" autoplay loop></video>
+            <video src="video.mp4" autoplay loop class="rounded-2"></video>
           </div>
         </div>
-        <h1 class="text-center">World's first dual powertrain</h1>
+        <h2 class="text-center"> <span class="text-success">WORLD'S</span>  FIRST DUAL POWERTRAIN</h2>
       </div>
     </div>
     <div id="section-2" class="mt-2">
-      <h1 class="text-center">Gt-your Obvious choice</h1>
+      <h2 class="text-center"><span class="text-success">GT</span> -YOUR OBVIOUS CHOICE</h2>
       <div class="d-flex flex-column gap-5 mt-5">
         <div class="d-flex gap-5 flex-column flex-lg-row align-items-center">
-          <div class="section-2-img"></div>
+          <div class="section-2-img rounded-2"></div>
           <div class="d-flex flex-column justify-content-center ms-3 ms-sm-0">
             <ul class="list-inline flex-shrink-1 data-list">
               <li>
@@ -86,23 +87,23 @@
       </div>
     </div>
     <div id="section-3" class="mt-5 border-1 border-danger">
-      <h5 class="text-center">
+      <h2 class="text-center">
         CONVERT YOUR VECHILE IN <span class="text-success">3 EASY STEPS</span>
-      </h5>
+      </h2>
       <div
-        class="d-flex justify-content-center gap-5 align-items-center flex-lg-row flex-column"
+        class="d-flex justify-content-center mt-4 gap-5 align-items-center flex-lg-row flex-column"
       >
-        <div class="flex-shrink-1">
+        <div class="section-3-box">
           <div class="section-3-img" id="section-3-img-1"></div>
           <div class="d-flex flex-column gap-1 mt-3">
             <span class="text-center fw-bold">Step 1</span>
             <span class="text-center"
-              ><span class="text-success">Book</span> your vechile for <br />
+              ><span class="text-success ">Book</span> your vechile for <br />
               conversion</span
             >
           </div>
         </div>
-        <div class="d-flex gap-1 flex-shrink-1 data-line">
+        <div class="d-flex gap-1 data-line">
           <div class="box"></div>
           <div class="box"></div>
           <div class="box"></div>
@@ -110,7 +111,7 @@
           <div class="box"></div>
           <div class="box"></div>
         </div>
-        <div class="flex-shrink-1">
+        <div class="section-3-box" >
           <div class="section-3-img" id="section-3-img-2"></div>
           <div class="d-flex flex-column gap-1 mt-3">
             <span class="text-center fw-bold">Step 1</span>
@@ -120,7 +121,7 @@
             >
           </div>
         </div>
-        <div class="d-flex gap-1 flex-shrink-1 data-line">
+        <div class="d-flex gap-1 data-line">
           <div class="box"></div>
           <div class="box"></div>
           <div class="box"></div>
@@ -128,7 +129,7 @@
           <div class="box"></div>
           <div class="box"></div>
         </div>
-        <div class="flex-shrink-1">
+        <div class="section-3-box">
           <div class="section-3-img" id="section-3-img-3"></div>
           <div class="d-flex flex-column gap-1 mt-3">
             <span class="text-center fw-bold">Step 1</span>
@@ -146,10 +147,10 @@
     </div>
 
     <div id="section-4" class="mt-5">
-      <h2 class="text-center">Vechile we convert</h2>
+      <h2 class="text-center">VECHILE WE <span class="text-success">CONVERT</span> </h2>
       <div class="mt-5 d-flex gap-5 flex-lg-row flex-column align-items-center">
         <div class="section-4-video">
-          <video src="video2.mp4" autoplay loop class="ms-lg-4 ms-0"></video>
+          <video src="video2.mp4" autoplay loop class="ms-lg-4 ms-0 rounded-2"></video>
         </div>
         <div
           class="d-flex gap-5 flex-column ms-lg-5 ms-0 flex-grow-0 flex-lg-grow-1 align-items-center"
@@ -222,7 +223,7 @@
           <div class="accordion-item border-0">
             <h2 class="accordion-header" id="headingOne">
               <button
-                class="accordion-button"
+                class="accordion-button text-success"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -254,7 +255,7 @@
           <div class="accordion-item border-0">
             <h2 class="accordion-header" id="headingTwo">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed text-success"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -286,7 +287,7 @@
           <div class="accordion-item border-0">
             <h2 class="accordion-header" id="headingThree">
               <button
-                class="accordion-button collapsed"
+                class="accordion-button collapsed  text-success"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
