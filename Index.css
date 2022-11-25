@@ -148,7 +148,7 @@
 .green-tiger-logo {
   background-image: url("https://greentiger.in/assets/logo.png");
   width: 200px;
-  height: 100px;
+  height: 80px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -162,6 +162,16 @@
 .new-section-lists{
   width: 45%;
 
+}
+.asso-box{
+  width: 15%;
+  /* height: 175px; */
+  aspect-ratio: 1;
+  border-radius: 5px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url("https://picsum.photos/200/300");
 }
 @media only screen and (max-width: 1065px) {
   #section-7 {
@@ -239,6 +249,9 @@
   }
   .hamburger{
     width: 25px;
+  }
+  .asso-box{
+    width: 50%;
   }
 }
 @media only screen and (max-width: 355px) {
