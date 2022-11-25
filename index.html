@@ -14,44 +14,50 @@
     <link rel="stylesheet" href="Index.css" />
   </head>
   <body>
-    <nav class="d-flex justify-content-between align-items-center bg-light p-sm-3 p-2">
-      <!-- logo boxe -->
-      <div>
-        <div class="logo"></div>
-      </div>
-      <!-- right-part -->
-      <div class="d-flex align-items-center gap-sm-5 gap-2">
-        <button type="button" class="btn btn-success data-btn">
-          Our Components
-        </button>
-        <button type="button" class="btn btn-success data-btn">Pre-book</button>
-
-        <div class="hamburger"></div>
-      </div>
-    </nav>
-    <div
-      id="section-1"
-      class="d-flex justify-content-center"
-    >
-      <div class="d-flex flex-column justify-content-evenly">
-        <h2 class="text-center"> <span class="text-success">ALWAYS</span>  WITH YOU</h2>
-
-        <div class="d-flex gap-4 flex-lg-row flex-column align-items-center">
-          <div class="section-1-left-img me-lg-5 me-0 rounded-2"></div>
-          <div class="video-1">
-            <video src="video.mp4" autoplay loop class="rounded-2"></video>
-          </div>
+    <div id="section-1" class="d-flex flex-column justify-content-between">
+      <nav
+        class="d-flex justify-content-between align-items-center bg-light p-sm-3 p-2"
+      >
+        <!-- logo boxe -->
+        <div>
+          <div class="logo"></div>
         </div>
-        <h2 class="text-center"> <span class="text-success">WORLD'S</span>  FIRST DUAL POWERTRAIN</h2>
+        <!-- right-part -->
+        <div class="d-flex align-items-center gap-sm-5 gap-2">
+          <button type="button" class="btn btn-success data-btn">
+            Our Components
+          </button>
+          <button type="button" class="btn btn-success data-btn">
+            Pre-book
+          </button>
+
+          <div class="hamburger"></div>
+        </div>
+      </nav>
+      <h2 class="text-center">
+        <span class="text-success">ALWAYS</span> WITH YOU
+      </h2>
+      <div
+        class="d-flex flex-lg-row flex-column justify-content-center align-items-center gap-lg-0 gap-5"
+      >
+        <div class="section-1-left-img me-lg-5 me-0 rounded-2"></div>
+        <div class="video-1">
+          <video src="video.mp4" autoplay loop muted class="rounded-2"></video>
+        </div>
       </div>
+      <h2 class="text-center">
+        <span class="text-success">WORLD'S</span> FIRST DUAL POWERTRAIN
+      </h2>
     </div>
     <div id="section-2" class="mt-2">
-      <h2 class="text-center"><span class="text-success">GT</span> -YOUR OBVIOUS CHOICE</h2>
+      <h2 class="text-center">
+        <span class="text-success">GT</span> -YOUR OBVIOUS CHOICE
+      </h2>
       <div class="d-flex flex-column gap-5 mt-5">
-        <div class="d-flex gap-5 flex-column flex-lg-row align-items-center">
-          <div class="section-2-img rounded-2 ms-lg-2 ms-0"></div>
-          <div class="d-flex flex-column justify-content-center ms-3 ms-sm-0">
-            <ul class="list-inline flex-shrink-1 data-list">
+        <div class="d-flex gap-5 flex-column flex-lg-row align-items-center justify-content-center">
+          <div class="section-2-img rounded-2"></div>
+          <div class="d-flex flex-column justify-content-center sec-2-list">
+            <ul class="list-inline data-list">
               <li>
                 <span class="fw-bold"
                   >G-Carbon Emmision Saved,Saved Many Trees</span
@@ -82,24 +88,23 @@
       </div>
     </div>
     <div id="new-section" class="mt-5">
-      <h2 class="text-center">YOUR GT <span class="text-success">APPLICATION</span></h2>
-      <div class="d-flex gap-5 align-items-center mt-5 flex-column flex-lg-row">
+      <h2 class="text-center">
+        YOUR GT <span class="text-success">APPLICATION</span>
+      </h2>
+      <div class="d-flex gap-5 align-items-center mt-5 flex-column flex-lg-row justify-content-center">
         <div class="new-sec-video ms-lg-2 ms-0">
-          <video src="video3.mp4" class="rounded-2" autoplay loop></video>
+          <video src="video3.mp4" class="rounded-2" autoplay loop muted></video>
         </div>
-        <div>
-          <ul class="list-inline fw-bold">
+        <div class="new-section-lists d-lg-flex justify-content-lg-evenly">
+          <ul class="list-inline fw-bold d-flex flex-column gap-3">
             <li>-Battery Indicator</li>
             <li>-Petrol Indicator</li>
             <li>-Bike Health</li>
             <li>-Eco Score</li>
             <li>-Anti-Theft</li>
-
           </ul>
         </div>
-
       </div>
-
     </div>
     <div id="section-3" class="mt-5 border-1 border-danger">
       <h2 class="text-center">
@@ -113,7 +118,7 @@
           <div class="d-flex flex-column gap-1 mt-3">
             <span class="text-center fw-bold">Step 1</span>
             <span class="text-center"
-              ><span class="text-success ">Book</span> your vechile for <br />
+              ><span class="text-success">Book</span> your vechile for <br />
               conversion</span
             >
           </div>
@@ -126,12 +131,12 @@
           <div class="box"></div>
           <div class="box"></div>
         </div>
-        <div class="section-3-box" >
+        <div class="section-3-box">
           <div class="section-3-img" id="section-3-img-2"></div>
           <div class="d-flex flex-column gap-1 mt-3">
             <span class="text-center fw-bold">Step 1</span>
             <span class="text-center"
-              >The Vechile gets converted in a 
+              >The Vechile gets converted in a
               <span class="text-success">GTM center</span></span
             >
           </div>
@@ -151,10 +156,7 @@
             <span class="text-center"
               >Vechile is ready,<br />
               Welcome to
-              <span class="text-success"
-                >Hybrid 
-                Family</span
-              ></span
+              <span class="text-success">Hybrid Family</span></span
             >
           </div>
         </div>
@@ -162,13 +164,21 @@
     </div>
 
     <div id="section-4" class="mt-5">
-      <h2 class="text-center">VECHILE WE <span class="text-success">CONVERT</span> </h2>
-      <div class="mt-5 d-flex gap-5 flex-lg-row flex-column align-items-center">
+      <h2 class="text-center">
+        VECHILE WE <span class="text-success">CONVERT</span>
+      </h2>
+      <div class="mt-5 d-flex gap-lg-0 gap-5 flex-lg-row flex-column align-items-center  justify-content-center">
         <div class="section-4-video">
-          <video src="video2.mp4" autoplay loop class="ms-lg-4 ms-0 rounded-2"></video>
+          <video
+            src="video2.mp4"
+            autoplay
+            loop
+            muted
+            class="rounded-2"
+          ></video>
         </div>
         <div
-          class="d-flex gap-5 flex-column ms-lg-5 ms-0 flex-grow-0 flex-lg-grow-1 align-items-center"
+          class="d-flex gap-5 flex-column ms-lg-5 ms-0 align-items-center sec-4-right"
         >
           <div class="logo-container">
             <div class="logo-type-2"></div>

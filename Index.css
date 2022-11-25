@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+.sec-2-list{
+  width: 45%;
+}
 .logo {
   background-image: url("https://greentiger.in/assets/logo.png");
   width: 175px;
@@ -25,12 +28,12 @@
   background-color: darkgreen;
 }
 #section-1{
-  height: 89.5vh;
-  
-}
+  height: 100vh;
+  }
+
 
 .section-1-left-img {
-  width: 50%;
+  width: 45%;
   aspect-ratio: 16/9;
   background-image: url("https://picsum.photos/200/300");
   background-position: center;
@@ -38,9 +41,9 @@
   background-size: cover;
 }
 .video-1 {
-  /* border: 2px solid red; */
-  width: 50%;
+  width: 45%;
 }
+
 .video-1 video {
   width: 100%;
 }
@@ -50,8 +53,9 @@
   background-color: green;
   border-radius: 50%;
 }
+
 .section-2-img {
-  width: 50%;
+  width: 45%;
   aspect-ratio: 16/9;
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWg27RxEm_euLwwasY6AlwCoS-y3mAj5S7Q&usqp=CAU");
   background-position: center;
@@ -80,7 +84,7 @@
   width: 18%;
 }
 .section-4-video {
-  width: 40%;
+  width: 45%;
 }
 .section-4-video video {
   width: 100%;
@@ -91,6 +95,9 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.sec-4-right{
+  width: 45%;
 }
 .logo-container {
   display: grid;
@@ -121,7 +128,6 @@
 }
 .accordion-button:not(.collapsed){
   background-color:#b7e9bd !important;
-  /* box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 #00aa13 !important; */
 }
 .accordion-button:not(.collapsed){
   color: black;
@@ -134,7 +140,6 @@
 
 #section-7 {
   width: 100%;
-  /* height: 450px; */
   background-color: rgb(0, 87, 100);
   display: grid;
   grid-template-columns: repeat(4, minmax(250px, 300px));
@@ -149,10 +154,14 @@
   background-size: contain;
 }
 .new-sec-video{
-  width: 50%;
+  width:45%;
 }
 .new-sec-video video{
   width: 100%;
+}
+.new-section-lists{
+  width: 45%;
+
 }
 @media only screen and (max-width: 1065px) {
   #section-7 {
@@ -163,11 +172,16 @@
 
 @media only screen and (max-width: 992px) {
   .video-1 {
-    width: 90%;
+    height: 30vh;
+    width: auto;
   }
+  .video-1 video{
+    height: 100%;
+  }
+  
   .section-1-left-img {
-    width: 90%;
-    aspect-ratio: 16/9;
+    height: 30vh;
+    width: auto;
     background-size: cover;
   }
   .section-2-img {
@@ -191,7 +205,10 @@
   .new-sec-video{
     width: 90%;
   }
-  
+.new-section-lists{
+  width: 90%;
+}
+
 }
 
 @media only screen and (max-width: 576px) {
@@ -236,5 +253,12 @@
   }
   .logo{
     width:98px;
+  }
+  .video-1{
+    height: 24vh;
+
+  }
+  .section-1-left-img{
+    height: 24vh;
   }
 }
