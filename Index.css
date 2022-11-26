@@ -1,6 +1,7 @@
 *{
     box-sizing: border-box;
     font-family: Montserrat,sans-serif !important;
+    font-weight: 500 !important;
 }
 .sec-2-list{
   width: 45%;
@@ -26,6 +27,9 @@
   border: none;
 
 }
+.gt-color{
+  color: #00aa13;
+}
 .data-btn:hover{
   background-color: darkgreen;
 }
@@ -37,10 +41,44 @@
 .section-1-left-img {
   width: 45%;
   aspect-ratio: 16/9;
-  background-image: url("https://picsum.photos/200/300");
+  /* background-image: url("");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+}
+.sec-1-box{
+  width: 45%;
+  /* height: 22%; */
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+  padding: 6px 25px;
+  border-radius: 35px 0 0 35px;
+
+}
+.sec-1-box h1{
+  font-size: 3.5rem;
+}
+.sec-1-box-right{
+  width: 78%;
+  height: 100%;
+}
+#sec-box-1{
+  background: linear-gradient(to right,rgba(255,172,23,0.8),rgba(255,172,23,0.9));
+  color: white;
+}
+#sec-box-2{
+  background: linear-gradient(to right, rgba(248,50,49,0.8),rgba(248,50,49,0.9));
+  color: white;
+
+}
+#sec-box-3{
+  background: linear-gradient(to right, rgba(92,185,174,0.8),rgba(92,185,174,0.9));
+  color: white;
+}
+#sec-box-4{
+  background: linear-gradient(to right, rgba(92,175,31,0.8),rgba(92,175,31,0.9));
+  color: white;
 }
 .video-1 {
   width: 45%;
@@ -59,31 +97,39 @@
 .section-2-img {
   width: 45%;
   aspect-ratio: 16/9;
-  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTWg27RxEm_euLwwasY6AlwCoS-y3mAj5S7Q&usqp=CAU");
+  background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content/cms/DEV/vehicleimageDPTsection.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+#section-3{
+  background-color: #f8f9fa;
+  padding: 2rem;
+  width: 100%;
 }
 .section-3-img {
   width: 100%;
-  aspect-ratio:1;
+  height: 300px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+.section-3-box div:last-child span{
+  font-size: 22px;
+}
 #section-3-img-1 {
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("https://greentiger.in/assets/home/step1.jpeg");
 }
 #section-3-img-2 {
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("https://greentiger.in/assets/home/step2.png");
 
 }
 #section-3-img-3 {
-  background-image: url("https://picsum.photos/200/300");
+  background-image: url("https://greentiger.in/assets/home/step3.jpeg");
 
 }
 .section-3-box{
-  width: 18%;
+  width: 40%;
 }
 .section-4-video {
   width: 45%;
@@ -93,10 +139,9 @@
 }
 .logo-type-2 {
   height: 100px;
-  background-image: url("https://picsum.photos/200/300");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 .sec-4-right{
   width: 45%;
@@ -113,23 +158,36 @@
 
 
 .opinion-box {
-  width: 250px;
-  height: 250px;
+  width: 275px;
+  background-color: #bcd0d7;
+  font-size: 18px;
+  color: rgb(33,37,41);
+}
+#p-1{
   border-radius: 8px 8px 0px 30px;
-  background-color: rgb(176, 175, 175);
+  
+}
+#p-2{
+  border-radius: 8px 8px 30px 0px;
+
 }
 .mahesh-box {
-  background-color: rgb(21, 69, 80);
+  background-color: rgb(41, 95, 115);
   border-bottom-left-radius: 30px;
   color: white;
+  padding: 1rem;
+  width: 100%;
 }
 .anand-box {
-  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
   color: white;
-  background-color: darkorange;
+  background-color: rgb(246,110,28);
+  padding: 1rem;
+  width: 100%;
 }
 .accordion-button:not(.collapsed){
-  background-color:#b7e9bd !important;
+  background-color:#c2df9f !important;
+  font-size: 18px;
 }
 .accordion-button:not(.collapsed){
   color: black;
@@ -149,14 +207,18 @@
   color: #fff;
 
 }
-#section-7 div{
+.sec-8-col{
+  color: #295f73;
+}
+#section-7 div span{
 color: #fff;
+font-size:18px ;
 }
 
 .green-tiger-logo {
   background-image: url("https://greentiger.in/assets/logo.png");
   width: 200px;
-  height: 60px;
+  height: 65px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -173,13 +235,50 @@ color: #fff;
 }
 .asso-box{
   width: 15%;
-  /* height: 175px; */
   aspect-ratio: 1;
-  border-radius: 5px;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-image: url("https://picsum.photos/200/300");
+}
+.accordion-button::after {
+  background-image: url("https://cdn-icons-png.flaticon.com/512/5611/5611992.png");
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url("https://cdn-icons-png.flaticon.com/512/5611/5611992.png");
+}
+.data-list{
+  font-size: 18px;
+}
+#asso-logo-1{
+  background-image: url('https://greentiger.in/assets/partners/1.png');
+}
+#asso-logo-2{
+  background-image: url("https://greentiger.in/assets/partners/2.png");
+}
+#asso-logo-3{
+  background-image: url("https://greentiger.in/assets/partners/3.png");
+}
+#asso-logo-4{
+  background-image: url("https://greentiger.in/assets/partners/4.png");
+}
+#asso-logo-5{
+  background-image: url("https://greentiger.in/assets/partners/5.png");
+}
+.accord-font{
+  font-size: 18px;
+}
+#hero{
+  background-image: url('https://s3.ap-south-1.amazonaws.com/greentiger.in-content/cms/DEV/1667910999107.svg%2Bxml');
+}
+#suzuki{
+  background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content/cms/DEV/1667911048584.svg%2Bxml");
+}
+#honda{
+background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content/cms/DEV/1667911073509.svg%2Bxml");
+}
+#tvs{
+background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content/cms/DEV/1667911093097.svg%2Bxml");
 }
 @media only screen and (max-width: 1065px) {
   #section-7 {
@@ -212,42 +311,41 @@ color: #fff;
     width: 90%;
   }
   .section-3-box{
-    width: 40%;
+    width: 75%;
 
   }
-  .section-3-img{
-    aspect-ratio: 2/1;
-    background-size: cover;
-    
-  }
+  
   .new-sec-video{
     width: 90%;
   }
 .new-section-lists{
   width: 90%;
 }
+.sec-2-list{
+  width: 90%;
+}
 
+}
+@media only screen and (max-width: 768px) {
+  #section-7{
+grid-template-columns: repeat(1,minmax(250px,1fr));
+grid-gap: 25px;
+  }
+  #section8{
+    padding: 12px;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .data-btn {
-    font-size: 11px;
-    padding: 6px 4px;
-  }
-  .data-list {
     font-size: 12px;
+    padding: 6px;
   }
-  #section-7 {
-    font-size: 11px;
-    grid-gap: 8%;
-    padding: 0rem 0rem 1.3rem 0.1rem !important;
-  }
+  
   .green-tiger-logo {
     height: 80px;
   }
-  #section8 span {
-    font-size: 11px;
-  }
+  
   .section-3-box{
     width: 60%;
 
@@ -265,19 +363,18 @@ color: #fff;
   .green-tiger-logo{
     height: 50px;
   }
-}
-@media only screen and (max-width: 355px) {
-  #section-7 {
-    grid-template-columns: repeat(1, minmax(50px, 1fr));
-    padding: 1rem 0rem 6rem 1rem !important;
-    height: fit-content;
+  .section-3-box{
+    width: 98%;
   }
+}
+@media only screen and (max-width: 373px) {
+ 
   .data-btn{
-    font-size: 9px;
+    font-size: 10.5px;
     padding: 5px 4px;
   }
   .logo{
-    width:98px;
+    width:100px;
   }
   .video-1{
     height: 24vh;
@@ -285,5 +382,12 @@ color: #fff;
   }
   .section-1-left-img{
     height: 24vh;
+  }
+  .section-3-box{
+    width: 100%;
+  }
+  #section-3{
+    padding:1rem;
+
   }
 }
