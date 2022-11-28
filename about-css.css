@@ -1,0 +1,60 @@
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+.logo {
+  background-image: url("https://greentiger.in/assets/logo.png");
+  width: 175px;
+  height: 43px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.hamburger {
+  width: 30px;
+  aspect-ratio: 1;
+  background-image: url("https://cdn-icons-png.flaticon.com/512/8867/8867520.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.data-btn {
+  background-color: #00aa13;
+  border: none;
+}
+.para-1 {
+  text-align: justify;
+  font-size: 18px;
+  color: #003444;
+}
+.para-1::first-letter {
+  float: left;
+  font-size: 50px;
+  line-height: 1;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #00aa13;
+}
+
+@media only screen and (max-width: 576px) {
+  .logo {
+    width: 140px;
+    background-size: contain;
+  }
+  .data-btn {
+    font-size: 12px;
+    padding: 6px;
+  }
+}
+@media only screen and (max-width: 373px) {
+  .logo {
+    width: 105px;
+    height: 50px;
+  }
+  .hamburger {
+    width: 25px;
+  }
+  .data-btn {
+    font-size: 11px;
+    padding: 5px 4px;
+  }
+}
