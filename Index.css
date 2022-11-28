@@ -41,22 +41,22 @@
 .section-1-left-img {
   width: 45%;
   aspect-ratio: 16/9;
-  /* background-image: url("");
+  background-image: url("sec1.jpg");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; */
+  background-size: contain;
 }
-.sec-1-box{
-  width: 45%;
+ .sec-1-box{
+  /* width: 45%; */
   /* height: 22%; */
   /* display: flex;
   align-items: center;
   justify-content: center; */
-  padding: 6px 25px;
-  border-radius: 35px 0 0 35px;
+  /* padding: 6px 25px;
+  border-radius: 35px 0 0 35px; */
 
-}
-.sec-1-box h1{
+} 
+/* .sec-1-box h1{
   font-size: 3.5rem;
 }
 .sec-1-box-right{
@@ -79,7 +79,7 @@
 #sec-box-4{
   background: linear-gradient(to right, rgba(92,175,31,0.8),rgba(92,175,31,0.9));
   color: white;
-}
+} */
 .video-1 {
   width: 45%;
 }
@@ -235,7 +235,7 @@ font-size:18px ;
 }
 .asso-box{
   width: 15%;
-  aspect-ratio: 1;
+  aspect-ratio: 2/1.8;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -299,7 +299,6 @@ background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content
   .section-1-left-img {
     height: 30vh;
     width: auto;
-    background-size: cover;
   }
   .section-2-img {
     width: 90%;
@@ -324,6 +323,10 @@ background-image: url("https://s3.ap-south-1.amazonaws.com/greentiger.in-content
 .sec-2-list{
   width: 90%;
 }
+.sec-4-right{
+  width: 90%;
+}
+
 
 }
 @media only screen and (max-width: 768px) {
@@ -370,11 +373,12 @@ grid-gap: 25px;
 @media only screen and (max-width: 373px) {
  
   .data-btn{
-    font-size: 10.5px;
+    font-size: 11px;
     padding: 5px 4px;
   }
   .logo{
-    width:100px;
+    width:105px;
+    height: 50px;
   }
   .video-1{
     height: 24vh;
