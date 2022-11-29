@@ -34,7 +34,7 @@
   background-color: darkgreen;
 }
 #section-1{
-  height: 100vh;
+  height: calc(100vh - 76.5px);
   }
 
 
