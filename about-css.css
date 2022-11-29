@@ -1,5 +1,10 @@
 * {
   font-family: Montserrat, sans-serif;
+  box-sizing: border-box;
+}
+/* utility classes  */
+.theme-color{
+  color: #00aa13;
 }
 
 .logo {
@@ -34,6 +39,42 @@
   font-family: Georgia, "Times New Roman", Times, serif;
   color: #00aa13;
 }
+.member{
+  color: #00aa13;
+
+}
+.mem-card{
+  width: 200px;
+  height: 225px;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0.2px #00aa13;
+}
+.avatar{
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  background-image: url("https://greentiger.in/assets/team_gt/sourabh.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.avatar-container{
+  width: 85px;
+  height: 85px;
+  border: 4px solid #00aa13;
+  border-radius: 50%;
+  padding: 0.2rem;
+  box-shadow: 0 0 6px 0.2px #00aa13;
+
+}
+.divider{
+  width: 100%;
+  height: 2px;
+  background-color:#00aa13;
+
+}
+
 
 @media only screen and (max-width: 576px) {
   .logo {
