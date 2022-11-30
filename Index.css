@@ -214,6 +214,10 @@
 color: #fff;
 font-size:18px ;
 }
+.abt-color{
+color: #fff;
+
+}
 
 .green-tiger-logo {
   background-image: url("https://greentiger.in/assets/logo.png");
@@ -222,6 +226,12 @@ font-size:18px ;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+#new-section{
+  height: 75vh;
+  width: 100%;
+  /* border: 2px solid red; */
+
 }
 .new-sec-video{
   width:45%;
